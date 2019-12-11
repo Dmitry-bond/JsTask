@@ -1,0 +1,11 @@
+div.wrapper {
+width:1200px;
+}
+div.left_block {
+float:left;
+width:600px;
+}
+div.right_block {
+float:right;
+width:600px;
+}

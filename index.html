@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Изучение JS</title>
+    <link rel="stylesheet" href="block.css"/>
+    <link rel="stylesheet" href="tab.css" type="text/css"/>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="left_block">
+        <form action="" name="test">
+            <div>Ручка</div>
+            <div>
+                <label for="codePen">Code</label>
+                <input type="text" name="codePen" id="codePen" placeholder="Code"/>
+            </div>
+            <div>
+                <label for="namePen">Name</label>
+                <input type="text" name="namePen" id="namePen" placeholder="Name"/>
+            </div>
+            <div>
+                <label for="colorPen">Color</label>
+                <input type="text" name="colorPen" id="colorPen" placeholder="Color"/>
+            </div>
+            <div>
+                <label for="pricePen">Price</label>
+                <input type="text" name="pricePen" id="pricePen" placeholder="Price"/>
+            </div>
+
+            <input type="button" name="button" id="addPen" value="Создать"/>
+
+        </form>
+        <br/><br/><br/>
+
+
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Color</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody id="tablePen"></tbody>
+        </table>
+
+
+    </div>
+
+    <div class="right_block">
+        <form action="" name="test2">
+            <div>Блокнот</div>
+            <div>
+                <label for="codeCopyBook">Code</label>
+                <input type="text" name="codeCopyBook" id="codeCopyBook" placeholder="Code"/>
+            </div>
+            <div>
+                <label for="nameCopyBook">Name</label>
+                <input type="text" name="nameCopyBook" id="nameCopyBook" placeholder="Name"/>
+            </div>
+            <div>
+                <label for="priceCopyBook">Price</label>
+                <input type=text" name="priceCopyBook" id="priceCopyBook" placeholder="Price"/>
+            </div>
+            <div>
+                <label for="typeCopyBook">Type</label>
+                <input type="text" name="typeCopyBook" id="typeCopyBook" placeholder="Type"/>
+            </div>
+            <input type="button" name="button" id="addCopyBook" value="Создать" />
+        </form>
+        <br/><br/><br/>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Type</th>
+				<th>Action</th>
+            </tr>
+            </thead>
+            <tbody id="tableCopyBook"></tbody>
+        </table>
+    </div>
+</div>
+<script src="index.js" defer></script>
+</body>
+</html>
